@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 
         $('#nav-toggle').on('click', function (event) {
             event.preventDefault();
-            $('#main-nav').toggleClass("open");
+            $('#main-nav').toggleClass("open");           
         });
 
 
@@ -77,6 +77,8 @@ jQuery(document).ready(function($) {
         navigation.on('click', 'a', function(event){
             event.preventDefault(); //prevents previous event
             smoothScroll($(this.hash));
+            $('#main-nav').removeClass('open');
+            $('#main-nav').removeClass('in');
         });
         
         //update navigation on scroll...
