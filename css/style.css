@@ -23,6 +23,10 @@ body {
 	background: #101010;
 }
 
+#projectss {
+	background: #171717;
+}
+
 p a {
 	color: #d5ba6f !important;
 }
@@ -878,6 +882,30 @@ header {
 }
 
 
+
+/* Projectss Style */
+
+#projectss {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+#projectss .masonry {
+  position: relative;
+  width: 100%;
+}
+
+#projectss .masonry .item img {
+  transition: all 1s;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#projectss .masonry .item img:hover {
+  opacity: 0.5;
+}
 
 /* Projects Style */
 
